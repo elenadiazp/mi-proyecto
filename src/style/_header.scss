@@ -39,18 +39,21 @@ header {
     header {
         flex-direction: column;
         text-align: center;
-    }
-    nav{
-        img{
-            width: 40px;
+        font-size: 16px;
+
+        nav {
+            img {
+                width: 40px;
+            }
         }
     }
+
     nav div ul {
         flex-direction: column;
         margin-top: 10px;
-      
-           
-        
+
+
+
     }
 
 }

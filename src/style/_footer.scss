@@ -1,15 +1,17 @@
 @use "globals" as *;
 @use "layout" as *;
-footer{
+
+footer {
     font-family: 'Montserrat', sans-serif;
     background-color: $primary-burdeos;
-    color:$secundary-white;
+    color: $secundary-white;
     @include justify-between;
 }
-@include respond-to("small"){
-    footer{
+
+@include respond-to("small") {
+    footer {
         display: flex;
         flex-direction: column;
-        
+        font-size: 0.8rem;
     }
 }
