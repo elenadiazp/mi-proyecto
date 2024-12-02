@@ -220,7 +220,7 @@ footer {
 }
 .section1 .caja p {
   font-family: "Jockey One", sans-serif;
-  font-size: 20px;
+  font-size: 1.25rem;
 }
 .section1 button {
   background-color: #ffffff;
@@ -265,7 +265,7 @@ footer {
   color: #ffffff;
 }
 .section2 .encabezado p {
-  font-size: 20px;
+  font-size: 1rem;
   font-family: "Montserrat", sans-serif;
 }
 
@@ -315,7 +315,7 @@ button a {
 
 @media (max-width: 870px) {
   .section2 .encabezado p {
-    font-size: 16px;
+    font-size: 1rem;
   }
   .section2 .cajon2 {
     display: flex;
@@ -323,10 +323,10 @@ button a {
     justify-content: center;
   }
   .section2 .cajon2 .caja1 {
-    font-size: 20px;
+    font-size: 1.25rem;
   }
   .section2 .cajon2 .caja2 button a {
-    font-size: 16px;
+    font-size: 1rem;
   }
 }
 

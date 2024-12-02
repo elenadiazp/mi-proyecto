@@ -9,7 +9,7 @@
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    width: 100%;
+    width: $width-100;
     height: 80vh;
 
 
@@ -20,21 +20,21 @@
         color: $secundary-white;
 
         h2 {
-            font-family: 'Montserrat', sans-serif;
+            font-family: $fonts-principal, sans-serif;
             font-size: 36px;
             font-weight: 400;
         }
 
         p {
-            font-family: 'Jockey One', sans-serif;
-            font-size: 20px;
+            font-family: $fonts-subtitulo, sans-serif;
+            font-size: $size-fonts-h2;
         }
     }
 
     button {
         @include btn($secundary-white, $secundary-black);
 
-        font-family: 'Montserrat', sans-serif;
+        font-family: $fonts-principal, sans-serif;
 
         &:hover {
             background-color: $secundary-grey;
@@ -52,19 +52,19 @@
     .caja {
         h2 {
 
-            font-size: 10px,
+            font-size: $size-fonts-movil,
 
         }
 
         p {
 
-            font-size: 10px;
+            font-size: $size-fonts-movil;
         }
     }
 
     button {
         a {
-            font-size: 10px;
+            font-size: $size-fonts-movil;
         }
     }
 }
@@ -75,13 +75,13 @@
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    width: 100%;
+    width: $width-100;
     height: auto;
 
     .encabezado {
         p {
-            font-size: 20px;
-            font-family: 'Montserrat', sans-serif;
+            font-size: $size-fonts-paragraph;
+            font-family: $fonts-principal, sans-serif;
         }
 
         background-color: $primary-transp1;
@@ -129,7 +129,7 @@ button {
 
     @include btn($primary-burdeos, $secundary-white);
 
-    font-family: 'Montserrat', sans-serif;
+    font-family: $fonts-principal, sans-serif;
 
     &:hover {
         background-color: $primary-hover;
@@ -146,7 +146,7 @@ button {
     .section2 {
         .encabezado {
             p {
-                font-size: 16px;
+                font-size: $size-fonts-paragraph;
             }
         }
 
@@ -157,12 +157,12 @@ button {
 
             .caja1 {
 
-                font-size: 20px;
+                font-size: $size-fonts-h2;
             }
             .caja2{
                 button{
                     a{
-                        font-size: 16px;
+                        font-size: $size-fonts-paragraph;
                     }
                 }
             }
