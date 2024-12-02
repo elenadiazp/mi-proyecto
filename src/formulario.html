@@ -5,7 +5,7 @@
   <meta charset="UTF-8" />
   <link rel="icon" type="image/svg+xml" href="/vite.svg" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Angel y Emi Construciones</title>
+  <title>Formulario</title>
   <link rel="stylesheet" href="src/style/main.css">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
   <style>
@@ -18,7 +18,7 @@
   <header class="container">
     <nav class="row">
 
-     <a href="index.html"><img src="assets/img/logo.png" alt="logo"></a> 
+      <a href="index.html"><img src="assets/img/logo.png" alt="logo"></a> 
       <div>
         <ul class="row">
           <li class="me-1"><a href="index.html">Inicio</a></li>
@@ -30,15 +30,39 @@
     </nav>
 
   </header>
-  <main class="section1">
-    <div class="container-main">
-      <div class="caja">
-        <h2>Ángel y Emi</h2>
-        <p >CONSTRUCIONES LOS YEBENES S.L.L</p>
+  <main class="section2">
+   <div class="encabezado">
+    <p>Envianos tu consulta</p>
+   </div>
+  
+    <div class="cajon2">
+      <div class="caja1">
+        <p>Nuestra empresa te ofrece los mejores servicios. <br><br>
+          Cuéntenos cual es tu idea y la haremos realidad.</p>
       </div>
-      <button class="mt-1 btn"><a href="formulario.html">Envianos tu consulta</a></button>
+      <div class="caja2">
+        <form>
+            <p>
+              <label for="#">Nombre</label><br>
+              <input type="text" name="nombre"   />
+            </p>
+            <p>
+              <label for="#">Apellidos</label><br>
+              <input type="text" name="apellidos"   />
+            </p>
+            <p>
+              <label for="size_1">Correo electronico</label><br>
+              <input type="text" name="email"  />
+            </p>
+            <label for="size_1">Propuesta</label><br>
+            <textarea name="propuesta" id=""></textarea>
+            </p>
+            <div class=""><button><a href="formulario.html">Enviar</a></button></div>
+         
+        </form>
+        
+      </div>
     </div>
-    
   </main>
 
   <footer class="row">

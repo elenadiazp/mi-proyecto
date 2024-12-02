@@ -1,4 +1,5 @@
 @use "globals" as *;
-@use "layout";
-@use "header";
-@use "footer";
+@use "layout" as *;
+@use "header" as *;
+@use "footer" as *;
+@use "main" as *;
