@@ -1,0 +1,232 @@
+/* Mode 1 */
+/* number */
+/* string */
+/* Mode 1 */
+/* number */
+/* Mode 1 */
+/* color */
+/* Mode 1 */
+/* number */
+.row {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  height: 100%;
+}
+
+header {
+  padding: 1rem 4rem;
+}
+
+.me-1 {
+  margin-right: 2rem;
+}
+
+.mt-1 {
+  margin-top: 1rem;
+}
+
+footer {
+  padding: 1rem 4rem;
+}
+
+.container-main {
+  margin-left: 4rem;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 20rem;
+}
+.container-main .caja {
+  display: inline-block;
+  padding: 2rem;
+}
+.container-main .caja h2 {
+  margin: 0;
+  padding: 0;
+}
+.container-main .caja p {
+  margin: 0;
+  padding: 0;
+}
+
+.section2 {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+.section2 .encabezado {
+  display: flex;
+  justify-content: center;
+  padding: 1rem;
+}
+.section2 .encabezado p {
+  margin: 0;
+  padding: 0;
+}
+.section2 .cajon2 {
+  display: flex;
+  justify-content: center;
+  display: row;
+  margin-top: 5rem;
+  margin-bottom: 5rem;
+}
+.section2 .cajon2 .caja1 {
+  display: flex;
+  align-items: center;
+  padding: 4rem;
+  margin-right: 2rem;
+}
+.section2 .cajon2 .caja2 {
+  padding: 4rem;
+  margin-left: 2rem;
+}
+
+input, textarea {
+  margin-top: 1rem;
+  padding: 0.5rem 1rem;
+}
+
+header {
+  font-family: "Montserrat", sans-serif;
+  font-size: 20px;
+  background-color: #7a2b2e;
+}
+header nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+header nav img {
+  width: 15rem;
+}
+header nav div ul li {
+  list-style: none;
+}
+header nav div ul li a {
+  color: #ffffff;
+  text-decoration: none;
+}
+header nav div ul li a:hover {
+  color: #d7d7d7;
+}
+
+footer {
+  font-family: "Montserrat", sans-serif;
+  background-color: #7a2b2e;
+  color: #ffffff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.section1 {
+  background-image: url(../assets/img/casa.JPG);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 100%;
+  height: 80vh;
+}
+.section1 .caja {
+  background: rgba(122, 43, 46, 0.7411764706);
+  text-align: center;
+  color: #ffffff;
+}
+.section1 .caja h2 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 36px;
+  font-weight: 400;
+}
+.section1 .caja p {
+  font-family: "Jockey One", sans-serif;
+  font-size: 20px;
+}
+.section1 button {
+  background-color: #ffffff;
+  color: #000000;
+  padding: 0.5rem 3rem;
+  border: 2px solid #ffffff;
+  border-radius: 20px;
+  cursor: pointer;
+  font-size: 16px;
+  font-family: "Montserrat", sans-serif;
+}
+.section1 button:hover {
+  background-color: #d7d7d7;
+  border: 2px solid #d7d7d7;
+}
+.section1 button a {
+  color: #000000;
+  text-decoration: none;
+}
+
+.section2 {
+  background-image: url(../assets/img/bgformulario.JPG);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 100%;
+  height: auto;
+}
+.section2 .encabezado {
+  background-color: rgba(122, 43, 46, 0.7411764706);
+  color: #ffffff;
+}
+.section2 .encabezado p {
+  font-size: 20px;
+  font-family: "Montserrat", sans-serif;
+}
+
+.cajon2 .caja1 {
+  background-color: rgba(213, 207, 207, 0.368627451);
+  color: #ffffff;
+  font-family: "Montserrat", sans-serif;
+  width: 20rem;
+  font-size: 30px;
+}
+.cajon2 .caja2 {
+  width: 20rem;
+  font-size: 15px;
+  background-color: rgba(213, 207, 207, 0.368627451);
+  color: #ffffff;
+  font-family: "Montserrat", sans-serif;
+}
+.cajon2 form div {
+  text-align: center;
+}
+
+input,
+textarea {
+  border-radius: 10px;
+  border: 2px solid #ffffff;
+  width: 80%;
+}
+
+button {
+  background-color: #7a2b2e;
+  color: #ffffff;
+  padding: 0.5rem 3rem;
+  border: 2px solid #7a2b2e;
+  border-radius: 20px;
+  cursor: pointer;
+  font-size: 16px;
+  font-family: "Montserrat", sans-serif;
+}
+button:hover {
+  background-color: #561e20;
+  border: 2px solid #561e20;
+}
+button a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+/*# sourceMappingURL=main.css.map */
