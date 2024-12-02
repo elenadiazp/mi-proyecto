@@ -1,26 +1,29 @@
 @use "globals" as *;
 @use "layout" as *;
+
 header {
     font-family: 'Montserrat', sans-serif;
     font-size: 20px;
     background-color: $primary-burdeos;
 
     nav {
-       @include justify-between;
+        @include justify-between;
+
         img {
             width: 15rem;
-           
+
         }
     }
 
     nav div ul {
 
-       
+
 
         li {
             @include listas;
+
             a {
-             @include enlaces($secundary-white);
+                @include enlaces($secundary-white);
 
                 &:hover {
                     color: $secundary-grey;
@@ -30,4 +33,24 @@ header {
 
         }
     }
+}
+
+@include respond-to("small") {
+    header {
+        flex-direction: column;
+        text-align: center;
+    }
+    nav{
+        img{
+            width: 40px;
+        }
+    }
+    nav div ul {
+        flex-direction: column;
+        margin-top: 10px;
+      
+           
+        
+    }
+
 }

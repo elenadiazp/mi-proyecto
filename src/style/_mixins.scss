@@ -40,7 +40,7 @@
   ),
 );
 $breakpoints: (
-  "small": "max-width: 768px",
+  "small": "max-width: 800px",
 );
 @mixin respond-to($breakpoint) {
 

@@ -12,9 +12,7 @@
     width: 100%;
     height: 80vh;
 
-   @include respond-to("small"){
-    background-color: $secundary-black;
-   }
+  
 
     .caja {
         background: $primary-transp1;

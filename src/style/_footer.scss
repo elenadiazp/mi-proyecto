@@ -6,3 +6,10 @@ footer{
     color:$secundary-white;
     @include justify-between;
 }
+@include respond-to("small"){
+    footer{
+        display: flex;
+        flex-direction: column;
+        
+    }
+}

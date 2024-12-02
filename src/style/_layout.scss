@@ -1,3 +1,4 @@
+@use "globals" as *;
 .row {
     display: flex;
     flex-direction: row;
@@ -13,6 +14,12 @@ body {
 
 header {
     padding: 1rem 4rem;
+}
+@include respond-to("small") {
+    header nav div ul li{
+        margin-left: 0;
+        margin-top: 10px;
+    }
 }
 
 .me-1 {
