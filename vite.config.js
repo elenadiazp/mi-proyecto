@@ -7,8 +7,8 @@ export default defineConfig({
     outDir: "../docs", // Los archivos construidos irán a la carpeta "docs"
     rollupOptions: {
       input: {
-        main: resolve(__dirname, "./src/index.html"), // Página principal
-        form: resolve(__dirname, "./src/formulario.html"), // Otra página
+        main: resolve(__dirname, "./index.html"), // Página principal
+        form: resolve(__dirname, "./formulario.html"), // Otra página
       },
     },
   },
