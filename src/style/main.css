@@ -8,8 +8,8 @@
 /* Mode 1 */
 /* number */
 body {
-  margin: 0;
-  padding: 0;
+  margin: 0rem;
+  padding: 0rem;
   box-sizing: border-box;
   height: 100%;
 }
@@ -20,7 +20,7 @@ header {
 
 @media (max-width: 870px) {
   header nav div ul li {
-    margin-left: 0;
+    margin-left: 0rem;
     margin-top: 10px;
   }
 }
@@ -51,22 +51,25 @@ footer {
   padding: 2rem;
 }
 .container-main .caja h2 {
-  margin: 0;
-  padding: 0;
+  margin: 0rem;
+  padding: 0rem;
 }
 .container-main .caja p {
-  margin: 0;
-  padding: 0;
+  margin: 0rem;
+  padding: 0rem;
 }
 
 @media (max-width: 870px) {
   .container-main {
-    align-items: center;
-    width: 50%;
     display: flex;
     flex-direction: column;
     justify-content: center;
+    align-items: center;
     transform: 0;
+  }
+  .container-main .caja {
+    align-items: center;
+    width: 50%;
   }
 }
 .section2 {
@@ -79,8 +82,8 @@ footer {
   padding: 1rem;
 }
 .section2 .encabezado p {
-  margin: 0;
-  padding: 0;
+  margin: 0rem;
+  padding: 0rem;
 }
 .section2 .cajon2 {
   display: flex;
@@ -126,7 +129,7 @@ textarea {
 }
 header {
   font-family: "Montserrat", sans-serif;
-  font-size: 20px;
+  font-size: 1.25rem;
   background-color: #7a2b2e;
 }
 header nav {
@@ -161,7 +164,7 @@ header nav div ul li a:hover {
     display: flex;
     flex-direction: column;
     text-align: center;
-    font-size: 16px;
+    font-size: 1rem;
   }
   header nav {
     display: flex;
@@ -194,7 +197,7 @@ footer {
     text-align: center;
     display: flex;
     flex-direction: column;
-    font-size: 0.8rem;
+    font-size: 12px;
   }
 }
 .section1 {

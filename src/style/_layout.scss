@@ -3,8 +3,8 @@
 .row {}
 
 body {
-    margin: 0;
-    padding: 0;
+    margin: $margin-0;
+    padding: $padding-0;
     box-sizing: border-box;
     height: 100%;
 }
@@ -15,26 +15,26 @@ header {
 
 @include respond-to("small") {
     header nav div ul li {
-        margin-left: 0;
+        margin-left: $margin-0;
         margin-top: 10px;
     }
 }
 
 .me-1 {
-    margin-right: 2rem;
+    margin-right: $margin-2rem;
 }
 
 .mt-1 {
-    margin-top: 1rem;
+    margin-top: $margin-1rem;
 }
 
 footer {
-    padding: 1rem 4rem;
+    padding: $margin-1rem $margin-4rem;
 }
 
 
 .container-main {
-    margin-left: 4rem;
+    margin-left: $margin-4rem;
     display: flex;
     flex-direction: column;
     position: relative;
@@ -45,16 +45,16 @@ footer {
 
     .caja {
         display: inline-block;
-        padding: 2rem;
+        padding: $margin-2rem;
 
         h2 {
-            margin: 0;
-            padding: 0;
+            margin: $margin-0;
+            padding: $padding-0;
         }
 
         p {
-            margin: 0;
-            padding: 0;
+            margin: $margin-0;
+            padding: $padding-0;
         }
     }
 
@@ -62,12 +62,18 @@ footer {
 
 @include respond-to("small") {
     .container-main {
-        align-items: center;
-        width: 50%;
         display: flex;
         flex-direction: column;
         justify-content: center;
+        align-items: center;
         transform: 0;
+        .caja{
+            align-items: center;
+            width: 50%;
+           
+            
+        }
+        
        
     }
 }
@@ -83,8 +89,8 @@ footer {
         padding: 1rem;
 
         p {
-            margin: 0;
-            padding: 0;
+            margin: $margin-0;
+            padding: $padding-0;
         }
     }
 
@@ -98,12 +104,12 @@ footer {
             display: flex;
             align-items: center;
             padding: 4rem;
-            margin-right: 2rem;
+            margin-right: $margin-2rem;
         }
 
         .caja2 {
             padding: 4rem;
-            margin-left: 2rem;
+            margin-left: $margin-2rem;
 
         }
     }
@@ -111,7 +117,7 @@ footer {
 
 input,
 textarea {
-    margin-top: 1rem;
+    margin-top:$margin-1rem;
     padding: 0.5rem 1rem;
 }
 
@@ -123,19 +129,19 @@ textarea {
             display: flex;
             justify-content: center;
             flex-direction: column;
-            margin-top: 2rem;
+            margin-top: $margin-2rem;
 
 
             .caja1 {
                 display: flex;
                 align-items: center;
                 padding: 4rem;
-                margin:2rem;
+                margin:$margin-2rem;
             }
 
             .caja2 {
                 padding: 4rem;
-                margin:2rem;
+                margin:$margin-2rem;
 
             }
         }

@@ -2,8 +2,8 @@
 @use "layout" as *;
 
 header {
-    font-family: 'Montserrat', sans-serif;
-    font-size: 20px;
+    font-family: $fonts-principal, sans-serif;
+    font-size: $size-fonts-h2;
     background-color: $primary-burdeos;
 
     nav {
@@ -44,12 +44,12 @@ header {
         display: flex;
         flex-direction: column;
         text-align: center;
-        font-size: 16px;
+        font-size: $size-fonts-paragraph;
 
         nav {
             display: flex;
             flex-direction: column;
-            margin-top: 10px;
+            margin-top:  $margin-top-10;
             img {
                 width: 8rem;
         }
@@ -58,7 +58,7 @@ header {
    header nav div ul {
         display: flex;
         flex-direction: column;
-        margin-top: 10px;
+        margin-top: $margin-top-10;
 
 
 
