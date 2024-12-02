@@ -1,0 +1,29 @@
+@use "variables" as *;
+
+
+@mixin btn($bg-color, $text-color) {
+    background-color: $bg-color;
+    color: $text-color;
+    padding: 0.5rem 3rem;
+    border: 2px solid $bg-color;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 16px;
+
+  }
+  @mixin enlaces($color){
+    color: $color;
+    text-decoration: none;
+  }
+  @mixin listas{
+    list-style: none;
+  }
+  @mixin justify-between{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+ @mixin text-f{
+  color:$secundary-white;
+  font-family: 'Montserrat', sans-serif;
+ }

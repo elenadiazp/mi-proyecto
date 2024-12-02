@@ -1,0 +1,33 @@
+@use "globals" as *;
+@use "layout" as *;
+header {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    background-color: $primary-burdeos;
+
+    nav {
+       @include justify-between;
+        img {
+            width: 15rem;
+           
+        }
+    }
+
+    nav div ul {
+
+       
+
+        li {
+            @include listas;
+            a {
+             @include enlaces($secundary-white);
+
+                &:hover {
+                    color: $secundary-grey;
+                }
+            }
+
+
+        }
+    }
+}

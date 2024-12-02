@@ -1,0 +1,8 @@
+@use "globals" as *;
+@use "layout" as *;
+footer{
+    font-family: 'Montserrat', sans-serif;
+    background-color: $primary-burdeos;
+    color:$secundary-white;
+    @include justify-between;
+}
