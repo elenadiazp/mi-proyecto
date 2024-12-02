@@ -7,12 +7,6 @@
 /* color */
 /* Mode 1 */
 /* number */
-.row {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-}
-
 body {
   margin: 0;
   padding: 0;
@@ -24,7 +18,7 @@ header {
   padding: 1rem 4rem;
 }
 
-@media (max-width: 800px) {
+@media (max-width: 870px) {
   header nav div ul li {
     margin-left: 0;
     margin-top: 10px;
@@ -50,6 +44,7 @@ footer {
   top: 50%;
   transform: translateY(-50%);
   width: 20rem;
+  align-items: center;
 }
 .container-main .caja {
   display: inline-block;
@@ -64,6 +59,16 @@ footer {
   padding: 0;
 }
 
+@media (max-width: 870px) {
+  .container-main {
+    align-items: center;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    transform: 0;
+  }
+}
 .section2 {
   padding-top: 2rem;
   padding-bottom: 2rem;
@@ -80,7 +85,6 @@ footer {
 .section2 .cajon2 {
   display: flex;
   justify-content: center;
-  display: row;
   margin-top: 5rem;
   margin-bottom: 5rem;
 }
@@ -95,11 +99,31 @@ footer {
   margin-left: 2rem;
 }
 
-input, textarea {
+input,
+textarea {
   margin-top: 1rem;
   padding: 0.5rem 1rem;
 }
 
+@media (max-width: 870px) {
+  .section2 .cajon2 {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 2rem;
+  }
+  .section2 .cajon2 .caja1 {
+    display: flex;
+    align-items: center;
+    padding: 4rem;
+    margin: 2rem;
+  }
+  .section2 .cajon2 .caja2 {
+    padding: 4rem;
+    margin: 2rem;
+  }
+}
 header {
   font-family: "Montserrat", sans-serif;
   font-size: 20px;
@@ -109,9 +133,17 @@ header nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
 }
 header nav img {
   width: 15rem;
+}
+header nav div ul {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
 }
 header nav div ul li {
   list-style: none;
@@ -124,20 +156,31 @@ header nav div ul li a:hover {
   color: #d7d7d7;
 }
 
-@media (max-width: 800px) {
+@media (max-width: 870px) {
   header {
+    display: flex;
     flex-direction: column;
     text-align: center;
+    font-size: 16px;
   }
-  nav img {
-    width: 40px;
+  header nav {
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
   }
-  nav div ul {
+  header nav img {
+    width: 8rem;
+  }
+  header header nav div ul {
+    display: flex;
     flex-direction: column;
     margin-top: 10px;
   }
 }
 footer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
   font-family: "Montserrat", sans-serif;
   background-color: #7a2b2e;
   color: #ffffff;
@@ -146,6 +189,14 @@ footer {
   align-items: center;
 }
 
+@media (max-width: 870px) {
+  footer {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    font-size: 0.8rem;
+  }
+}
 .section1 {
   background-image: url(../assets/img/casa.JPG);
   background-size: cover;
@@ -187,6 +238,17 @@ footer {
   text-decoration: none;
 }
 
+@media (max-width: 870px) {
+  .caja h2 {
+    font-size: 10px;
+  }
+  .caja p {
+    font-size: 10px;
+  }
+  button a {
+    font-size: 10px;
+  }
+}
 .section2 {
   background-image: url(../assets/img/bgformulario.JPG);
   background-size: cover;
@@ -246,6 +308,23 @@ button:hover {
 button a {
   color: #ffffff;
   text-decoration: none;
+}
+
+@media (max-width: 870px) {
+  .section2 .encabezado p {
+    font-size: 16px;
+  }
+  .section2 .cajon2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .section2 .cajon2 .caja1 {
+    font-size: 20px;
+  }
+  .section2 .cajon2 .caja2 button a {
+    font-size: 16px;
+  }
 }
 
 /*# sourceMappingURL=main.css.map */

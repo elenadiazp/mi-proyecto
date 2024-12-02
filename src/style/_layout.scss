@@ -1,9 +1,6 @@
 @use "globals" as *;
-.row {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-}
+
+.row {}
 
 body {
     margin: 0;
@@ -15,8 +12,9 @@ body {
 header {
     padding: 1rem 4rem;
 }
+
 @include respond-to("small") {
-    header nav div ul li{
+    header nav div ul li {
         margin-left: 0;
         margin-top: 10px;
     }
@@ -43,10 +41,12 @@ footer {
     top: 50%;
     transform: translateY(-50%);
     width: 20rem;
+    align-items: center;
+
     .caja {
         display: inline-block;
         padding: 2rem;
-       
+
         h2 {
             margin: 0;
             padding: 0;
@@ -57,45 +57,87 @@ footer {
             padding: 0;
         }
     }
-   
-}
-.section2{
-    padding-top:2rem ;
-    padding-bottom:2rem;
-    .encabezado{
-        //  position: relative;
-          //top: 5%;
-         //margin-top:20px ;
-          display: flex;
-          justify-content: center;
-          padding:1rem;
-          p{
-              margin: 0;
-              padding: 0;
-          }
-      }
-      .cajon2{
-          display: flex;
-          justify-content: center;
-          display: row;
-         margin-top:5rem;
-         margin-bottom:5rem;
-        
-          .caja1{
-              display: flex;
-              align-items: center;
-              padding: 4rem;
-              margin-right: 2rem;
-          }
-          .caja2{
-              padding: 4rem;
-              margin-left: 2rem;
-              
-          }
-      }
+
 }
 
-input, textarea{
+@include respond-to("small") {
+    .container-main {
+        align-items: center;
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        transform: 0;
+       
+    }
+}
+
+.section2 {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+
+    .encabezado {
+
+        display: flex;
+        justify-content: center;
+        padding: 1rem;
+
+        p {
+            margin: 0;
+            padding: 0;
+        }
+    }
+
+    .cajon2 {
+        display: flex;
+        justify-content: center;
+        margin-top: 5rem;
+        margin-bottom: 5rem;
+
+        .caja1 {
+            display: flex;
+            align-items: center;
+            padding: 4rem;
+            margin-right: 2rem;
+        }
+
+        .caja2 {
+            padding: 4rem;
+            margin-left: 2rem;
+
+        }
+    }
+}
+
+input,
+textarea {
     margin-top: 1rem;
     padding: 0.5rem 1rem;
+}
+
+@include respond-to("small") {
+    .section2 {
+       
+        .cajon2 {
+            align-items: center;
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+            margin-top: 2rem;
+
+
+            .caja1 {
+                display: flex;
+                align-items: center;
+                padding: 4rem;
+                margin:2rem;
+            }
+
+            .caja2 {
+                padding: 4rem;
+                margin:2rem;
+
+            }
+        }
+    }
 }
