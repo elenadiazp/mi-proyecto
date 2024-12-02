@@ -18,6 +18,18 @@ El diseño ha sido trasladado a un proyecto en **Vanilla JS** que consta de:
 - Una carpeta `assets` que contiene las imágenes utilizadas.
 - Una carpeta `style` donde están organizados todos los ficheros **SASS**.
 
+---
+
+### Enlaces:
+
+- **Enlace a Figma:**  
+  https://www.figma.com/design/sl9IuW1g0yc0Qsenu2iV7n/Elena-Diaz-Perez?m=auto&t=kRPyxcCdYiWULJet-6  
+
+- **Enlace al repositorio GitHub:**  
+  https://github.com/elenadiazp/mi-proyecto  
+
+- **Enlace a la pagina de mi pagina:**  
+  
 ### Ejecución
 Para ejecutar el proyecto y compilar automáticamente los archivos **SASS**, utiliza el siguiente comando en la terminal:  
 
