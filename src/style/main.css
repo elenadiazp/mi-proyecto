@@ -60,16 +60,19 @@ footer {
 }
 
 @media (max-width: 870px) {
-  .container-main {
+  .section1 {
     display: flex;
-    flex-direction: column;
+    text-align: center;
     justify-content: center;
-    align-items: center;
+    align-items: start;
+  }
+  .section1 .container-main {
+    margin: 0;
     transform: 0;
   }
-  .container-main .caja {
+  .section1 .container-main .caja {
     align-items: center;
-    width: 50%;
+    width: 200px;
   }
 }
 .section2 {
@@ -119,11 +122,11 @@ textarea {
   .section2 .cajon2 .caja1 {
     display: flex;
     align-items: center;
-    padding: 4rem;
+    padding: 2rem;
     margin: 2rem;
   }
   .section2 .cajon2 .caja2 {
-    padding: 4rem;
+    padding: 2rem;
     margin: 2rem;
   }
 }
