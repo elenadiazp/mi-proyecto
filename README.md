@@ -37,9 +37,3 @@ Para ejecutar el proyecto y compilar automáticamente los archivos **SASS**, uti
 ```bash
 npm run dev
 
-
-
-
-
-
-
