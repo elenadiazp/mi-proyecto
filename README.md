@@ -29,6 +29,7 @@ El diseño ha sido trasladado a un proyecto en **Vanilla JS** que consta de:
   https://github.com/elenadiazp/mi-proyecto  
 
 - **Enlace a la pagina de mi pagina:**  
+  https://elenadiazp.github.io/mi-proyecto/index.html
   
 ### Ejecución
 Para ejecutar el proyecto y compilar automáticamente los archivos **SASS**, utiliza el siguiente comando en la terminal:  
